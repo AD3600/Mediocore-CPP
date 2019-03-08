@@ -17,7 +17,7 @@ using namespace std;
 
 int main()
 {
-    freopen("text.in", "r", stdin);
-    freopen("text.out", "w", stdout);
+    // freopen("text.in", "r", stdin);
+    // freopen("text.out", "w", stdout);
     
 }
