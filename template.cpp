@@ -11,6 +11,8 @@ TASK:
 #include <cstring>
 #include <math.h>
 #include <map>
+#include <vector>
+#include <utility>
 
 typedef long long ll;
 using namespace std;
