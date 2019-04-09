@@ -15,6 +15,10 @@ TASK:
 #include <utility>
 
 typedef long long ll;
+
+#define pb push_back
+#define f first
+#define s second
 using namespace std;
 
 int main()
