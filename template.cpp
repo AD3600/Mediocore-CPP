@@ -4,6 +4,7 @@ LANG: C++
 TASK: 
 */
 
+#include<bits/stdc++.h>
 #include <iostream>
 #include <fstream>
 #include <algorithm>
@@ -23,6 +24,7 @@ using namespace std;
 
 int main()
 {
+    ios.sync_with_stdio(0); cin.tie(NULL);
     // freopen("text.in", "r", stdin);
     // freopen("text.out", "w", stdout);
     
