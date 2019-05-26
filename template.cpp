@@ -24,7 +24,7 @@ using namespace std;
 
 int main()
 {
-    ios.sync_with_stdio(0); cin.tie(NULL);
+    ios::sync_with_stdio(0); cin.tie(NULL);
     // freopen("text.in", "r", stdin);
     // freopen("text.out", "w", stdout);
     
