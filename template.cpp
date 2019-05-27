@@ -4,22 +4,38 @@ LANG: C++
 TASK: 
 */
 
+#pragma GCC optimize ("O3")
+#pragma GCC target ("sse4")
+
 #include <bits/stdc++.h>
 #include <iostream>
 #include <fstream>
 #include <algorithm>
+#include <bitset>
+#include <complex>
+#include <iterator>
+#include <random>
 #include <string>
 #include <cstring>
 #include <math.h>
+#include <cmath>
 #include <map>
 #include <vector>
 #include <utility>
+#include <stack>
+#include <queue>
+#include <set>
+#include <list>
 
 typedef long long ll;
 
 #define pb push_back
 #define f first
 #define s second
+
+const int MOD = 1000000007;
+const ll INF = 1e18;
+
 using namespace std;
 
 int main()
