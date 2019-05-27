@@ -4,7 +4,7 @@ LANG: C++
 TASK: 
 */
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 #include <iostream>
 #include <fstream>
 #include <algorithm>
