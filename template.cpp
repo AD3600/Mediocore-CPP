@@ -29,13 +29,14 @@ TASK:
 
 typedef long long ll;
 
+#define mp make_pair
 #define pb push_back
 #define f first
 #define s second
 
 const int MOD = 1000000007;
 const ll INF = 1e18;
-
+const long double PI = 4*atan((long double) 1);
 using namespace std;
 
 int main()
