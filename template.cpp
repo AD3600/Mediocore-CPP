@@ -44,6 +44,9 @@ const ll INF = 1e18;
 const double EPS = 1e-9;
 const long double PI = 4*atan((long double) 1);
 
+
+#define watch(x) cout << (#x) << " is " << (x) << endl
+
 namespace io {
     void setIn(string s) { freopen(s.c_str(),"r",stdin); }
     void setOut(string s) { freopen(s.c_str(),"w",stdout); }
