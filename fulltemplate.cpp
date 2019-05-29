@@ -8,6 +8,24 @@ TASK:
 #pragma GCC target ("sse4")
 
 #include <bits/stdc++.h>
+#include <iostream>
+#include <fstream>
+#include <algorithm>
+#include <bitset>
+#include <complex>
+#include <iterator>
+#include <random>
+#include <string>
+#include <cstring>
+#include <math.h>
+#include <cmath>
+#include <map>
+#include <vector>
+#include <utility>
+#include <stack>
+#include <queue>
+#include <set>
+#include <list>
 
 using namespace std;
 
