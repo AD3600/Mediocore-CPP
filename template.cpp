@@ -12,7 +12,7 @@ TASK:
 using namespace std;
 
 #define ll long long
-#define int ll
+// #define int ll
 
 #define mp make_pair
 #define pb push_back
