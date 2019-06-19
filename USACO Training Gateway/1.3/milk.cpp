@@ -1,3 +1,9 @@
+/*
+ID: ad36051
+LANG: C++
+TASK: milk
+*/
+
 #include <iostream>
 #include <fstream>
 #include <algorithm>
