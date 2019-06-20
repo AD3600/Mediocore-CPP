@@ -1,5 +1,6 @@
 // Problem 2. Awkward Digits
 #include <iostream>
+#include <fstream>
 #include <algorithm>
 #include <vector>
 #include <cmath>
@@ -12,6 +13,8 @@ ll bn, tn;
 vector<ll> b, t;
 
 int main() {
+    // freopen("digits.in", "r", stdin);
+    // freopen("digits.out", "w", stdout);
     cin >> bnr >> trn;
     bn = stoi(bnr, nullptr, 2);
     tn = stoi(trn, nullptr, 3);
