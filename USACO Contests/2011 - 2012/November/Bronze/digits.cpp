@@ -7,10 +7,9 @@
 
 using namespace std;
 
-typedef long long ll;
 string bnr, trn;
-ll bn, tn;
-vector<ll> b, t;
+int bn, tn;
+vector<int> b, t;
 
 int main() {
     // freopen("digits.in", "r", stdin);
@@ -25,7 +24,7 @@ int main() {
             b.push_back(bn - pow(2, i));
     }
     for(int i = trn.size() - 1; i >= 0; i--) {
-        ll temp = tn;
+        int temp = tn;
         temp -= (trn[i] - '0') * pow(3, i);
         for(int j = 0; j < 3; j++) {
             if(j == (trn[i] - '0')) continue;
@@ -33,7 +32,7 @@ int main() {
         }
     }
     sort(t.begin(), t.end());
-    for(ll x : b) {
+    for(int x : b) {
         if(binary_search(t.begin(), t.end(), x)) {
             cout << x;
             return 0;
